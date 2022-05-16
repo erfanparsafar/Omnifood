@@ -51,10 +51,14 @@ Medium: 11px
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
+/* ********************** */
+/*Defult css  */
+/* ********************** */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 body {
   font-family: "Rubik", sans-serif;
@@ -65,6 +69,54 @@ body {
 html {
   font-size: 62.5%;
 }
+/* ********************** */
+/* Header Section  */
+/* ********************** */
+.main-header {
+  background-color: #fdf2e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.6rem;
+}
+.omnifood-logo {
+  height: 2.2rem;
+}
+.main-nav .nav-ul-list {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #e67e22;
+}
+.special-link:link,
+.special-link:visited {
+  color: #fff;
+  background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+}
+.special-link:hover,
+.special-link:active {
+  background-color: #cf711f;
+}
+/* ********************** */
+/*Hero Section  */
+/* ********************** */
+
 .Hero-section {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
@@ -109,7 +161,6 @@ html {
 .btn:active {
   display: inline-block;
 
-  text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
@@ -126,24 +177,24 @@ html {
 }
 .btn-start-eat,
 .btn-start-eat:link,
-.btn-start-eat:active {
+.btn-start-eat:visited {
   background-color: #e67e22;
   color: #fff;
 }
 .btn-learn-more,
 .btn-learn-more:link,
-.btn-learn-more:active {
+.btn-learn-more:visited {
   background-color: #fff;
   color: #333;
 }
 
 .btn-start-eat:hover,
-.btn-start-eat:visited {
+.btn-start-eat:active {
   background-color: #cf711f;
 }
 
 .btn-learn-more:hover,
-.btn-learn-more:visited {
+.btn-learn-more:active {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
 }
