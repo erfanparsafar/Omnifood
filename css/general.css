@@ -105,19 +105,45 @@ html {
   /* color: #343a40; */
   letter-spacing: -0.5px;
 }
-.heading-secondary {
-  font-size: 3.6rem;
-  color: inherit;
 
-  margin-bottom: 9.6rem;
-}
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
 }
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 3.2rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.6rem !important;
+}
+strong {
+  font-weight: 500px;
+}
+.center-text {
+  text-align: center;
+}
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
 }
