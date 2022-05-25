@@ -95,6 +95,9 @@ html {
 .grid--center-v {
   align-items: center;
 }
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
 
 .heading-primary,
 .heading-secondary,
@@ -146,4 +149,20 @@ strong {
 .link:active {
   color: #cf711f;
   border-bottom: 1px solid transparent;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.list-icon {
+  font-size: 3rem;
+  color: #e67e22;
 }
